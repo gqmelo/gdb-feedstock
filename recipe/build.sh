@@ -24,5 +24,5 @@ export CFLAGS="-I$PREFIX/include -L$PREFIX/lib"
     --with-separate-debug-dir="$PREFIX/lib/debug:/usr/lib/debug" \
     --with-python \
     --with-system-gdbinit="$PREFIX/etc/gdbinit"
-#make -j${CPU_COUNT}
-#make install
+make -j${CPU_COUNT}
+make install
